@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           >
             Hi, I'm{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              Eunice Donkor
+              Nana Ama
             </span>
           </motion.h1>
 
