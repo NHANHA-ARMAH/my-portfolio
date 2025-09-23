@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Full-Stack Developer and UI/UX Designer passionate about creating beautiful, functional digital experiences. Specializing in React, Node.js, and modern web technologies." />
+    <meta name="keywords" content="Full-Stack Developer, React Developer, Node.js, TypeScript, UI/UX Designer, Web Development, JavaScript, Portfolio" />
+    <meta name="author" content="Nana Ama" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nanaama.dev/" />
+    <meta property="og:title" content="Nana Ama - Full-Stack Developer & UI/UX Designer" />
+    <meta property="og:description" content="Full-Stack Developer and UI/UX Designer passionate about creating beautiful, functional digital experiences." />
+    <meta property="og:image" content="https://nanaama.dev/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://nanaama.dev/" />
+    <meta property="twitter:title" content="Nana Ama - Full-Stack Developer & UI/UX Designer" />
+    <meta property="twitter:description" content="Full-Stack Developer and UI/UX Designer passionate about creating beautiful, functional digital experiences." />
+    <meta property="twitter:image" content="https://johndoe.dev/og-image.jpg" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>Nana Ama - Full-Stack Developer & UI/UX Designer</title>
+    
+    <style>
+      /* Prevent flash of unstyled content */
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to bottom, #2563eb, #7c3aed);
+      }
+      
+      /* Dark mode scrollbar */
+      .dark ::-webkit-scrollbar-track {
+        background: #1e293b;
+      }
+      
+      /* Loading screen */
+      .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: white;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      @media (prefers-color-scheme: dark) {
+        .loading-overlay {
+          background: #111827;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
